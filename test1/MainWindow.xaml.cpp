@@ -32,6 +32,6 @@ namespace winrt::test1::implementation
 
     void MainWindow::myButton_Click(IInspectable const&, RoutedEventArgs const&)
     {
-        myButton().Content(box_value(L"Clicked"));
+        myButton().Content(box_value(L"I like pizza"));
     }
 }
